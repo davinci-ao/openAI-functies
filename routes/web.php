@@ -26,3 +26,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/privacy', function () {
+    return view('privacy');
+})->name('privacy');
