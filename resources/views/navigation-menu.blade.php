@@ -19,6 +19,10 @@
                     <x-nav-link href="{{ route('privacy') }}" :active="request()->routeIs('privacy')">
                         {{ __('Privacy') }}
                     </x-nav-link>
+
+                    <x-nav-link href="{{ route('validator') }}" :active="request()->routeIs('validator')">
+                        {{ __('Validator') }}
+                    </x-nav-link>
                 </div>
             </div>
 
