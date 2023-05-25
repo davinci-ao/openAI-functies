@@ -30,3 +30,7 @@ Route::middleware([
 Route::get('/privacy', function () {
     return view('privacy');
 })->name('privacy');
+
+Route::get('/validator', function () {
+    return view('function-validator');
+})->name('validator');
