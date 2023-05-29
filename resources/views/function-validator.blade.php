@@ -19,11 +19,5 @@
                 <button type="submit" class="uppercase bg-black text-gray-200 text-lg w-1/5 m-10 font-extrabold py-4 px-8 rounded-3xl hover:bg-sky-700">Submit</button>
             </form>
         </div>
-
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            @if (isset($_SESSION['userQuery']))
-                {{$_GET['userQuery']}}
-            @endif
-        </div>
     </div>
 </x-app-layout>
