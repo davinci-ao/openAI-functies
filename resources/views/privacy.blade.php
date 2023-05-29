@@ -1,9 +1,13 @@
 <x-guest-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Privacy Policy') }}
-        </h2>
-    </x-slot>
+    <div class="flex inline-block d-inline-block text-center justify-center">
+        <a href="/dashboard">
+            <h2 class="font-semibold text-xl text-gray-800 leading-tight text-center p-3">Home</h2>
+        </a>
+
+        <a href="/validator">
+            <h2 class="font-semibold text-xl text-gray-800 leading-tight text-center p-3">Validator</h2>
+        </a>
+    </div>
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
