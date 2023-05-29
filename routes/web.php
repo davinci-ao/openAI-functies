@@ -34,6 +34,6 @@ Route::get('/privacy', function () {
     return view('privacy');
 })->name('privacy');
 
-Route::get('/validator', function () {
-    return view('function-validator');
-})->name('validator');
+Route::post('/chatresponse', function () {
+    return view('chatresponse');
+})->name('chatresponse');
