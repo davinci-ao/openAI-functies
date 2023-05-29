@@ -25,6 +25,9 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+    Route::get('/validator', function () {
+        return view('function-validator');
+    })->name('validator');
 });
 
 Route::get('/privacy', function () {
