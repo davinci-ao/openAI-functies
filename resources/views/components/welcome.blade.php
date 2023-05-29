@@ -2,13 +2,14 @@
     <x-application-logo class="block h-12 w-auto" />
 
     <h1 class="mt-8 text-2xl font-medium text-gray-900">
-        Welcome to your Jetstream application!
+        Welkom bij [naam]!
     </h1>
 
     <p class="mt-6 text-gray-500 leading-relaxed">
-        Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed
-        to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe
-        you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel
-        ecosystem to be a breath of fresh air. We hope you love it.
+        [naam] is een website met functie validation features via ChatGPT. Met deze website kun je heel makkelijk
+        je functies checken volgens de criteria die de Software Development opleiding stelt aan goede functies.
+        Voordat je start met het gebruiken van deze website, vragen wij je om de <a class="inline-flex items-center font-semibold text-indigo-700" href="/privacy">privacy policy</a>
+        te lezen. Indien je problemen ondervindt, mag je een mail sturen naar <a class="inline-flex items-center font-semibold text-indigo-700" href="mailto:99069867@mydavinci.nl">99069867@mydavinci.nl</a>
+        en/of <a class="inline-flex items-center font-semibold text-indigo-700" href="mailto:jslemmer@mydavinci.nl">jslemmer@mydavinci.nl</a>.
     </p>
 </div>
